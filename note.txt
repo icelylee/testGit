@@ -11,3 +11,5 @@ MEAN: mongo+express+angular+node
 线上修改了，同时线下也修改了同一个文件，有冲突了
 就要去手动修改那个文件中的不一样的部分，修改好了，再git add . ;git commit -m’xxx’;git push origin master ;三步走重新来一遍；
 7.git 分支，branch
+分支名字叫gh-pages的都会默认有一个链接地址，可以查看该分支的静态页面效果，
+当前仓库的分支才会有链接地址，master主分支上没有这个功能
