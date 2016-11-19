@@ -1,2 +1,13 @@
 don't add me!
 MEAN: mongo+express+angular+node
+1.退出编辑器模式：q
+2.git reset —hard,硬恢复
+3.git log —online:显示成一行需要加--oneline
+4.git remote add 远程仓库的名字 +地址
+5.git push -u origin master
+-u———>upstream,如果增加-u ，下次就可以直接用git push/git pull ;后面不用再加任何名字；
+本地master，线上master
+6.解决冲突，ok！get；先pull 再push；然后三步走
+线上修改了，同时线下也修改了同一个文件，有冲突了
+就要去手动修改那个文件中的不一样的部分，修改好了，再git add . ;git commit -m’xxx’;git push origin master ;三步走重新来一遍；
+7.git 分支，branch
