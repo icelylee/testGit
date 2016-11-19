@@ -1,1 +1,2 @@
 don't add me!
+MEAN: mongo+express+angular+node
